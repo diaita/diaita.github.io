@@ -43,7 +43,12 @@ li a {
     padding-right: 8px;
 }
 
+ul li a:hover {
+    color: #226252;
+}
+
 .logo {
-    width: 8%;
-    padding: 1%;
+    width: 7%;
+    padding: 0.75%;
+    padding-left: 1.5%;
 }

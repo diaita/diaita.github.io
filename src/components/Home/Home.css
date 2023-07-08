@@ -1,0 +1,52 @@
+/* * {
+    background-color: #FBFBFB;
+} */
+
+.Home {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-photo-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    display: flex;
+}
+
+.main-page {
+    width: 30%;
+    height: 30%;
+
+    text-align: left;
+    color: #102F27;
+    font-family: OpenSans;
+
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 2%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    backdrop-filter: blur(15px);
+}
+
+.download-btn {
+    background: #226252;
+    color: #FFFFFF; 
+
+    text-decoration: none;
+
+    font-family: OpenSans;
+    font-weight: 600;
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 2%;
+    border-radius: 20px;
+}

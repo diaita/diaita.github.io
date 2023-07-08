@@ -17,3 +17,8 @@ code {
   src: url(./assets/MuseoModerno/MuseoModerno-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: OpenSans;
+  src: url(./assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
