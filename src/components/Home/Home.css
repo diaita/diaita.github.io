@@ -4,6 +4,7 @@
 
 .Home {
     overflow-x: hidden;
+    background: #FBFBFB;
 }
 
 .page-1 {
@@ -52,6 +53,10 @@
     padding-right: 22px;
     margin-top: 2%;
     border-radius: 20px;
+}
+
+.download-btn:hover {
+    background: #1d5346;
 }
 
 .page-2 {
@@ -165,6 +170,10 @@
     width: 25%;
 }
 
+.learn-more-btn:hover {
+    background: #1d5346;
+}
+
 .phone-icon {
     width: 15%;
     height: 80%;
@@ -172,4 +181,13 @@
     padding: 5%;
 
     filter: drop-shadow(3px 3px 7px rgb(166, 164, 164));
+}
+
+.page-4 {
+    width: 100vw;
+    height: 90vh;
+
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
