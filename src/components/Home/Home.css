@@ -109,3 +109,67 @@
     font-size: 1.2em;
     font-weight: 400;
 }
+
+.page-3 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #FBFBFB;
+}
+
+.demo-text-block {
+    width: 23%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10%;
+    padding-left: 0%;
+}
+
+.demo-header {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.demo-text {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 400;
+
+    padding-bottom: 3%;
+}
+
+.learn-more-btn {
+    background: #226252;
+    color: #FFFFFF; 
+
+    text-decoration: none;
+
+    font-family: OpenSans;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 1%;
+    border-radius: 20px;
+
+    width: 25%;
+}
+
+.phone-icon {
+    width: 15%;
+    height: 80%;
+
+    padding: 5%;
+
+    filter: drop-shadow(3px 3px 7px rgb(166, 164, 164));
+}

@@ -1,4 +1,5 @@
 import './Home.css';
+import phone from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/iphone-icon.png';
 
 function Home() {
 	return (
@@ -26,6 +27,14 @@ function Home() {
 						<div className="stat-description">Partners</div>
 					</div>
 				</div>
+			</div>
+			<div className="page-3">
+				<div className="demo-text-block">
+					<h2 className="demo-header">Diet Recommendations</h2>
+					<p className="demo-text">Individualized diet plans based on expert dietitian input, nutrition guidelines, and personal preferences.</p>
+					<a className="learn-more-btn" href="https://arie.cc/">Learn More</a>
+				</div>
+				<img src={phone} alt="app demo" className="phone-icon"/>
 			</div>
 		
 		</div>
