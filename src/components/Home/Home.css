@@ -3,8 +3,12 @@
 } */
 
 .Home {
+    overflow-x: hidden;
+}
+
+.page-1 {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 
     background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-photo-2.jpeg");
     background-repeat: no-repeat;
@@ -20,18 +24,16 @@
     text-align: left;
     color: #102F27;
     font-family: OpenSans;
+    font-size: 1.2em;
 
-    padding: 2%;
-    margin-top: 10%;
+    padding: 3%;
+    margin-top: 12%;
     margin-left: 2%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
 
     backdrop-filter: blur(15px);
 }
@@ -43,10 +45,67 @@
     text-decoration: none;
 
     font-family: OpenSans;
-    font-weight: 600;
+    font-size: 0.8em;
+    font-weight: 700;
     padding: 12px;
     padding-left: 22px;
     padding-right: 22px;
     margin-top: 2%;
     border-radius: 20px;
+}
+
+.page-2 {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: radial-gradient(rgb(226, 239, 222) 25%, #FBFBFB 75%);
+
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.stat-header {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.7em;
+    font-weight: 700;
+
+    padding-bottom: 2%;
+}
+
+.stat-block {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5%;
+}
+
+.stat-numbers {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 5em;
+    font-weight: 700;
+
+    padding-bottom: 25px;
+}
+
+.stat-description {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 400;
 }
