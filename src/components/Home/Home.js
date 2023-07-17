@@ -94,20 +94,27 @@ function Home() {
 
 			<div className="page-5">
 				<h2 className="why-headline">Why Diaita?</h2>
-				<div className="reason">
-					<img src={picture} alt="decription icon" className="sample-pic" />
-					<h3 className="reason-headline">Time-Saving Convenience</h3>
-					<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
-				</div>
-				<div className="reason">
-					<img src={picture} alt="decription icon" className="sample-pic" />
-					<h3 className="reason-headline">Time-Saving Convenience</h3>
-					<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
-				</div>
-				<div className="reason">
-					<img src={picture} alt="decription icon" className="sample-pic" />
-					<h3 className="reason-headline">Time-Saving Convenience</h3>
-					<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
+				<div className="reason-box">
+					<div className="reason">
+						<img src={picture} alt="decription icon" className="sample-pic" />
+						<h3 className="reason-header">Time-Saving Convenience</h3>
+						<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
+					</div>
+					<div className="reason">
+						<img src={picture} alt="decription icon" className="sample-pic" />
+						<h3 className="reason-header">Affordable Expert Guidance</h3>
+						<p className="reason-description">Receive personalized guidance and support from certified dietitians at an affordable cost.</p>
+					</div>
+					<div className="reason">
+						<img src={picture} alt="decription icon" className="sample-pic" />
+						<h3 className="reason-header">User-Friendly Tools & Guides</h3>
+						<p className="reason-description">Simplified and easy-to-understand tools and guides enable users to make necessary lifestyle changes with ease.</p>
+					</div>
+					<div className="reason">
+						<img src={picture} alt="decription icon" className="sample-pic" />
+						<h3 className="reason-header">A Community</h3>
+						<p className="reason-description">Connect with like-minded individuals, share experiences, and celebrate achievements in our interactive community for ongoing motivation.</p>
+					</div>
 				</div>
 			</div>
 
