@@ -4,6 +4,7 @@
 
 .Home {
     overflow-x: hidden;
+    overflow-y: hidden;
     background: #FBFBFB;
 }
 
@@ -187,7 +188,7 @@
 
 .page-4 {
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
 
     background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background.png");
     background-repeat: no-repeat;
@@ -206,7 +207,7 @@
 
     width: 40%;
 
-    padding-bottom: 7%;
+    padding-bottom: 4%;
 }
 
 .quote-section {
@@ -258,8 +259,7 @@
 }
 
 .page-5 {
-    width: 100vw;
-    height: 90vh;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -301,7 +301,7 @@
 .reason-description {
     color: #226252;
     font-family: OpenSans;
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: 400;
 
     width: 90%;
@@ -310,4 +310,56 @@
 
 .sample-pic {
     width: 60%;
+}
+
+.page-6 {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.get-started-text {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.5em;
+    font-weight: 700;
+
+    padding-right: 6%;
+}
+
+.download-btn-bottom {
+    background: #226252;
+    color: #FFFFFF; 
+
+    text-decoration: none;
+
+    font-family: OpenSans;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 2%;
+    border-radius: 20px;
+
+    margin-bottom: 2%;
+}
+
+.download-btn-bottom:hover {
+    background: #1d5346;
+}
+
+.contact-link {
+    color: #308771;
+    font-family: OpenSans;
+    font-size: 1.1em;
+    font-weight: 700;
+
+    padding-left: 3%;
 }

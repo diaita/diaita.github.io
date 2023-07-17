@@ -1,4 +1,5 @@
 import './Home.css';
+import Footer from '../Footer/Footer.js';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import phone from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/iphone-icon.png';
@@ -117,6 +118,14 @@ function Home() {
 					</div>
 				</div>
 			</div>
+
+			<div className="page-6">
+				<h2 className="get-started-text">Get Started with Diaita Today</h2>
+				<a className="download-btn-bottom" href="https://arie.cc/">Download Diaita</a>
+				<a className="contact-link" href="https://arie.cc/">Contact Us</a>
+			</div>
+
+			<Footer/>
 
 		</div>
 	);
