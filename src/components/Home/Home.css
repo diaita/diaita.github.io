@@ -123,6 +123,8 @@
     justify-content: center;
 
     background-color: #FBFBFB;
+
+    padding-bottom: 5%;
 }
 
 .demo-text-block {
@@ -190,4 +192,86 @@
     background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background.png");
     background-repeat: no-repeat;
     background-size: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 40%;
+
+    padding-bottom: 7%;
+}
+
+.quote-section {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: italic;
+
+    width: 50%;
+
+    display: flex;
+    text-align: center;
+}
+
+.quote-div-start {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+
+    padding-left: 15%;
+}
+
+.quote-div-end {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    padding-right: 15%;
+}
+
+.quote-start {
+    width: 15%;
+}
+
+.quote-end {
+    width: 15%;
+    transform: rotate(180deg);
+}
+
+.speaker {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.page-5 {
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+}
+
+.reason {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sample-pic {
+    width: 60%;
 }

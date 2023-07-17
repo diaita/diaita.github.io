@@ -2,6 +2,9 @@ import './Home.css';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import phone from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/iphone-icon.png';
+import quote from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/quote.png';
+import picture from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-picture.png';
+
 
 function Home() {
 	return (
@@ -64,8 +67,48 @@ function Home() {
 				</div>
 				<img src={phone} alt="app demo" className="phone-icon" />
 			</div>
+
 			<div className="page-4">
-				<blockquote>hi this is just a sample</blockquote>
+				<div className="quote">
+					<div className="quote-div-start">
+						<img src={quote} alt="quotation mark" className="quote-start" />
+					</div>
+					<blockquote className="quote-section">Testimonial Diaita provides personalized diet and physical activity plans.</blockquote>
+					<div className="quote-div-end">
+						<img src={quote} alt="quotation mark" className="quote-end" />
+					</div>
+					<div className="speaker">- Person, Occupation</div>
+				</div>
+
+				<div className="quote">
+					<div className="quote-div-start">
+						<img src={quote} alt="quotation mark" className="quote-start" />
+					</div>
+					<blockquote className="quote-section">Testimonial Diaita provides personalized diet and physical activity plans.</blockquote>
+					<div className="quote-div-end">
+						<img src={quote} alt="quotation mark" className="quote-end" />
+					</div>
+					<div className="speaker">- Person, Occupation</div>
+				</div>
+			</div>
+
+			<div className="page-5">
+				<h2 className="why-headline">Why Diaita?</h2>
+				<div className="reason">
+					<img src={picture} alt="decription icon" className="sample-pic" />
+					<h3 className="reason-headline">Time-Saving Convenience</h3>
+					<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
+				</div>
+				<div className="reason">
+					<img src={picture} alt="decription icon" className="sample-pic" />
+					<h3 className="reason-headline">Time-Saving Convenience</h3>
+					<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
+				</div>
+				<div className="reason">
+					<img src={picture} alt="decription icon" className="sample-pic" />
+					<h3 className="reason-headline">Time-Saving Convenience</h3>
+					<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
+				</div>
 			</div>
 
 		</div>
