@@ -1,0 +1,44 @@
+.About {
+    width: 100vw;
+    height: 100vh;
+
+    background: #FBFBFB;
+}
+
+.mission-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background-2.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mission-header {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.7em;
+    font-weight: 700;
+
+    padding-top: 5%;
+}
+
+.mission-subheader {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.mission-text {
+    width: 50%;
+
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 400;
+}

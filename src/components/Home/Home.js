@@ -111,11 +111,6 @@ function Home() {
 						<h3 className="reason-header">User-Friendly Tools & Guides</h3>
 						<p className="reason-description">Simplified and easy-to-understand tools and guides enable users to make necessary lifestyle changes with ease.</p>
 					</div>
-					<div className="reason">
-						<img src={picture} alt="decription icon" className="sample-pic" />
-						<h3 className="reason-header">A Community</h3>
-						<p className="reason-description">Connect with like-minded individuals, share experiences, and celebrate achievements in our interactive community for ongoing motivation.</p>
-					</div>
 				</div>
 			</div>
 

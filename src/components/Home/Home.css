@@ -12,7 +12,8 @@
     width: 100vw;
     height: 90vh;
 
-    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-photo-2.jpeg");
+    /* background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-photo-2.jpeg"); */
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/background-man.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
 
