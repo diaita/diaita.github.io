@@ -1,13 +1,12 @@
 .About {
-    width: 100vw;
-    height: 100vh;
-
+    overflow-x: hidden;
+    overflow-y: hidden;
     background: #FBFBFB;
 }
 
 .mission-section {
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
     background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background-2.png");
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -24,7 +23,7 @@
     font-size: 1.7em;
     font-weight: 700;
 
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
 .mission-subheader {
@@ -35,10 +34,139 @@
 }
 
 .mission-text {
-    width: 50%;
+    width: 40%;
 
     color: #226252;
     font-family: OpenSans;
     font-size: 1.2em;
     font-weight: 400;
+}
+
+.why-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-text {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.05em;
+    font-weight: 400;
+}
+
+.top-why {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-why {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-why {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.why-header {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.bottom-why {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 8%;
+    padding-bottom: 10%;
+
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.why-reasons {
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.why-reason {
+    width: 30%;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-image {
+    width: 20%;
+}
+
+.why-reason-header {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.25em;
+    font-weight: 700;
+
+    text-align: center;
+    padding-top: 5%;
+}
+
+.why-text-2 {
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.05em;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.history {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.history-cols {
+    width: 100%;
+    display: flex;
+}
+
+.history-header {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.4em;
+    font-weight: 400;
+
+    padding-bottom: 2%;
+}
+
+.history-col {
+    width: 50%;
+
+    padding-top: 2%;
 }
