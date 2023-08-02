@@ -1,43 +1,55 @@
 import "./About.css";
 import Footer from "../Footer/Footer.js";
-import { Chart, ArcElement, Tooltip, Legend, Title } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
+// import { Chart, ArcElement, Tooltip, Legend, Title } from 'chart.js';
+// import { Doughnut } from 'react-chartjs-2';
+import about from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/about-picture.jpg";
 import time from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/time.png";
 import computer from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/computer.png";
 import ai from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/ai.png";
+import skydeck from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/skydeck.png";
+import nsf from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/nsf.png";
+import health from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/health-tech.png";
+
 
 function About() {
-	Chart.register(ArcElement, Tooltip, Legend, Title);
-	Chart.defaults.plugins.tooltip.backgroundColor = 'rgb(0, 0, 156)';
-	Chart.defaults.plugins.legend.position = 'bottom';
-	Chart.defaults.plugins.legend.title.display = true;
-	Chart.defaults.plugins.legend.title.text = '13 Risk Factors';
-	Chart.defaults.plugins.legend.title.font = 'Helvetica Neue';
+	// Chart.register(ArcElement, Tooltip, Legend, Title);
+	// Chart.defaults.plugins.tooltip.backgroundColor = 'rgb(0, 0, 156)';
+	// Chart.defaults.plugins.legend.position = 'bottom';
+	// Chart.defaults.plugins.legend.title.display = true;
+	// Chart.defaults.plugins.legend.title.text = '13 Risk Factors';
+	// Chart.defaults.plugins.legend.title.font = 'Helvetica Neue';
 
-	const data = {
-		labels: [
-			'Smoking\nAlcohol\nSleep over/less than 7-9 hours',
-			'Stress and Well-Being',
-			'Diet\nBlood Pressure\nCholesterol Level\nObesity',
-			'Physically active less than 3 times/week',
-			'Over 45 y or older\nFamily History\nGestational diabetes'
-		],
-		datasets: [{
-			data: [25, 10, 30, 15, 20],
-			label: [
-				'Risk Factor (%)'
-			],
-			backgroundColor: [
-				'#006d77',
-				'#83c5be',
-				'#edf6f9',
-				'#ffddd2',
-				'#e29578'
-			],
-			borderWidth: 2,
-			radius: '80%'
-		}]
-	};
+	// const data = {
+	// 	labels: [
+	// 		'Smoking,\nAlcohol,\nSleep over/less than 7-9 hours',
+	// 		'Stress and Well-Being',
+	// 		'Diet,\nBlood Pressure,\nCholesterol Level,\nObesity',
+	// 		'Physically active less than 3 times/week',
+	// 		'Over 45 y or older,\nFamily History,\nGestational diabetes'
+	// 	],
+	// 	datasets: [{
+	// 		data: [25, 10, 30, 15, 20],
+	// 		label: [
+	// 			'Risk Factor (%)'
+	// 		],
+	// 		backgroundColor: [
+	// 			'#006d77',
+	// 			'#83c5be',
+	// 			'#edf6f9',
+	// 			'#ffddd2',
+	// 			'#e29578'
+	// 		],
+	// 		borderWidth: 2,
+	// 		radius: '80%',
+	// 		options: {
+	// 			plugins: {
+	// 			  datalabels: {
+	// 				display: false
+	// 			  }
+	// 			},
+	// 		  }
+	// 	}]
+	// };
 
 	return (
 		<div className="About">
@@ -59,18 +71,10 @@ function About() {
 							to change in ways that do not align with their mental model or lifestyles and habits. Diaita aims to solve
 							this problem by providing a mobile app that combines convenience, user-friendly tools, and a reward system
 							built with machine learning techniques to motivate individuals to maintain habits that work best with their life.
-							For more information about Diabetes, its causes, and treatment, please visit our blog here.
+							For more information about Diabetes, its causes, and treatment, please visit our blog <a className="why-link" href="https://arie.cc/">here</a>.
 						</p>
-					</div>
-					<div className="right-why">
-						<Doughnut
-							data={data}
-							options={{
-								responsive: true,
-								maintainAspectRatio: true,
-							}}
-						/>
-					</div>
+					</div>			
+						<img src={about} alt="active" className="right-why"></img>
 				</div>
 
 				<div className="bottom-why">
@@ -95,24 +99,11 @@ function About() {
 				</div>
 
 				<div className="history">
-					<h2 className="why-header">Where we've been</h2>
-					<div className="history-cols">
-						<div className="history-col">
-							<div className="history-header">Accelators</div>
-							<div className="why-text">Skydeck Pad-13 Batch 15 and Batch 16 (Current)</div>
-							<div className="why-text">Health Tech CoLab (Current)</div>
-							<div className="why-text">NSF National Innovation Corps (2023)</div>
-							<div className="why-text">NSF Regional Innovation Corps (2022)</div>
-							<div className="why-text">Draper University (2022)</div>
-						</div>
-						<div className="history-col">
-							<div className="history-header">Funding</div>
-							<div className="why-text">2023 National Innovation Corps National ($50,000, USA)</div>
-							<div className="why-text">2022 National Innovation Corps Regional ($5,000, USA)</div>
-							<div className="why-text">2022 Asia Berkeley Taiwan Biomedical, BTB ($100,000, Taiwan)</div>
-							<div className="why-text">2021-2022 Berkeley Taiwan Biomedical, BTB ($100,000, Taiwan)</div>
-							<div className="why-text">2017-2018 Chevening Scholars (£24,000, U.K.)</div>
-						</div>
+					{/* <h2 className="history-header">Where we've been</h2> */}
+					<div className="history-pics">
+						<a className="image-link "href="https://skydeck.berkeley.edu/"><img src={skydeck} alt="skydeck" className="skydeck-image"/></a>
+						<a className="image2-link "href="https://new.nsf.gov/funding/initiatives/i-corps"><img src={nsf} alt="nsf" className="nsf-image" /></a>
+						<a className="image-link "href="https://healthtech.berkeley.edu/"><img src={health} alt="health-tech" className="health-image" /></a>
 					</div>
 				</div>
 			</div>

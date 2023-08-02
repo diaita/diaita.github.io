@@ -1,0 +1,60 @@
+.Contact {
+    background: #FBFBFB;
+}
+
+.contact-header {
+    width: 100vw;
+    height: 65vh;
+
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background-3.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header-text {
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.7em;
+    font-weight: 700;
+
+    padding-top: 7%;
+}
+
+.contact-section {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-bottom: 10%;
+}
+
+.left-contact {
+    width: 30%;
+}
+
+.right-contact {
+    background-color: #F4F9F2;
+
+    width: 30%;
+    padding: 3%;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.contact-input {
+    border: 0.8px solid #102F27;
+    border-radius: 4px;
+
+    width: 40%;
+    padding: 7px 7px;
+
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1.2px solid #102F27;
+}

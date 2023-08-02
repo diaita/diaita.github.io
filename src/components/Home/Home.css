@@ -126,7 +126,7 @@
 
     background-color: #FBFBFB;
 
-    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .demo-text-block {
@@ -182,9 +182,9 @@
     width: 15%;
     height: 80%;
 
-    padding: 5%;
+    padding: 10%;
 
-    filter: drop-shadow(3px 3px 7px rgb(166, 164, 164));
+    /* filter: drop-shadow(3px 3px 7px rgb(166, 164, 164)); */
 }
 
 .page-4 {
@@ -310,7 +310,7 @@
 }
 
 .sample-pic {
-    width: 60%;
+    width: 50%;
 }
 
 .page-6 {

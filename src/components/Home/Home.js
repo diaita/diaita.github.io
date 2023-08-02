@@ -1,10 +1,13 @@
 import './Home.css';
 import Footer from '../Footer/Footer.js';
-import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
-import phone from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/iphone-icon.png';
+// import CountUp from 'react-countup';
+// import VisibilitySensor from 'react-visibility-sensor';
+// import phone from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/iphone-icon.png';
+import demo from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/demo.gif';
 import quote from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/quote.png';
-import picture from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-picture.png';
+import saving from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/time-saving.png';
+import guidance from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/guidance.png';
+import tools from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/tools.png';
 
 
 function Home() {
@@ -17,7 +20,7 @@ function Home() {
 					<a className="download-btn" href="https://arie.cc/">Download Diaita</a>
 				</div>
 			</div>
-			<div className="page-2">
+			{/* <div className="page-2">
 				<div className="stat-header">Steady User Growth Worldwide</div>
 				<div className="stat-block">
 					<div className="stats">
@@ -59,14 +62,15 @@ function Home() {
 						<div className="stat-description">Partners</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 			<div className="page-3">
 				<div className="demo-text-block">
 					<h2 className="demo-header">Diet Recommendations</h2>
 					<p className="demo-text">Individualized diet plans based on expert dietitian input, nutrition guidelines, and personal preferences.</p>
 					<a className="learn-more-btn" href="https://arie.cc/">Learn More</a>
 				</div>
-				<img src={phone} alt="app demo" className="phone-icon" />
+				{/* <video controls autostart autoPlay src={demo} className="phone-icon"/> */}
+				<img src={demo} className="phone-icon" alt="demo"></img>
 			</div>
 
 			<div className="page-4">
@@ -97,17 +101,17 @@ function Home() {
 				<h2 className="why-headline">Why Diaita?</h2>
 				<div className="reason-box">
 					<div className="reason">
-						<img src={picture} alt="decription icon" className="sample-pic" />
+						<img src={saving} alt="decription icon" className="sample-pic" />
 						<h3 className="reason-header">Time-Saving Convenience</h3>
 						<p className="reason-description">Access expert advice and information from dietitians without extensive research, saving you time and effort.</p>
 					</div>
 					<div className="reason">
-						<img src={picture} alt="decription icon" className="sample-pic" />
+						<img src={guidance} alt="decription icon" className="sample-pic" />
 						<h3 className="reason-header">Affordable Expert Guidance</h3>
 						<p className="reason-description">Receive personalized guidance and support from certified dietitians at an affordable cost.</p>
 					</div>
 					<div className="reason">
-						<img src={picture} alt="decription icon" className="sample-pic" />
+						<img src={tools} alt="decription icon" className="sample-pic" />
 						<h3 className="reason-header">User-Friendly Tools & Guides</h3>
 						<p className="reason-description">Simplified and easy-to-understand tools and guides enable users to make necessary lifestyle changes with ease.</p>
 					</div>
