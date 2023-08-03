@@ -156,7 +156,7 @@
     display: flex;
     flex-direction: column;
 
-    padding-top: 4%;
+    padding-top: 3%;
     padding-bottom: 5%;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .skydeck-image {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
@@ -191,16 +191,13 @@
 .health-image {
     width: 100%;
     height: auto;
+
 }
 
 .image-link {
-    width: 30%;
-    height: auto;
-}
-
-.image2-link {
-    width: 30%;
+    width: 30vw;
     height: auto;
 
-    padding-right: 12%;
+    padding-left: 1%;
+    padding-right: 1%;
 }

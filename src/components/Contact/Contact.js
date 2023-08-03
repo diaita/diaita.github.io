@@ -1,7 +1,16 @@
 import "./Contact.css";
 import Footer from "../Footer/Footer.js";
+import SentForm from "./SentForm.js";
+import Default from "./Default.js"
+import { useState } from "react";
 
 function Contact() {
+	const [done, setDone] = useState(false);
+
+	function doneFunction() {
+		setDone(true);
+	}
+	
 	return (
 		<div className="Contact">
 			<div className="contact-header">
@@ -15,16 +24,7 @@ function Contact() {
 					</div>
 				</div>
 				<div className="right-contact">
-					<div className="name-section">
-						<div className="name">
-							<p className="why-text">First Name*</p>
-							<input type='text' name='user_name' className="contact-input" />
-						</div>
-						<div className="name">
-							<p className="why-text">Last Name*</p>
-							<input type='text' name='user_name' className="contact-input" />
-						</div>
-					</div>
+					{(!done && <Default doneFunction={doneFunction}/>) || (done && <SentForm/>)}
 				</div>
 			</div>
 			<Footer />

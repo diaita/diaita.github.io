@@ -4,7 +4,7 @@
 
 .contact-header {
     width: 100vw;
-    height: 65vh;
+    height: 50vh;
 
     background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background-3.png");
     background-repeat: no-repeat;
@@ -34,6 +34,10 @@
 
 .left-contact {
     width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .right-contact {
@@ -43,18 +47,90 @@
     padding: 3%;
 
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.contact-input {
+.name-input {
     border: 0.8px solid #102F27;
     border-radius: 4px;
+    font-family: OpenSans;
 
-    width: 40%;
+    width: 115%;
     padding: 7px 7px;
 
     outline: none;
 }
 
-input[type=text]:focus {
+.email-input {
+    border: 0.8px solid #102F27;
+    border-radius: 4px;
+    font-family: OpenSans;
+
+    width: 90.25%;
+    padding: 7px 7px;
+
+    outline: none;
+}
+
+.message-text {
+    border: 0.8px solid #102F27;
+    border-radius: 4px;
+    font-family: OpenSans;
+
+    width: 90.25%;
+    padding: 7px 7px;
+
+    outline: none;
+    resize: none;
+}
+
+input:focus {
     border: 1.2px solid #102F27;
+}
+
+textarea:focus {
+    border: 1.2px solid #102F27;
+}
+
+.name-section {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    width: 100%;
+    padding-right: 15%;
+}
+.email {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+}
+
+.submit-btn {
+    width: 25%;
+    border: none;
+    background: #226252;
+    color: white;
+
+    padding: 7px;
+    margin-top: 8%;
+
+    font-family: OpenSans;
+    font-size: 0.8em;
+    font-weight: 700;
+
+    border-radius: 20px;
+}
+
+.submit-btn:hover {
+    background: #1d5346;
+    cursor: pointer;
 }

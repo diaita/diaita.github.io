@@ -6,7 +6,7 @@ import about from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/about-p
 import time from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/time.png";
 import computer from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/computer.png";
 import ai from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/ai.png";
-import skydeck from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/skydeck.png";
+import skydeck from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/skydeck2.png";
 import nsf from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/nsf.png";
 import health from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/health-tech.png";
 
@@ -102,7 +102,7 @@ function About() {
 					{/* <h2 className="history-header">Where we've been</h2> */}
 					<div className="history-pics">
 						<a className="image-link "href="https://skydeck.berkeley.edu/"><img src={skydeck} alt="skydeck" className="skydeck-image"/></a>
-						<a className="image2-link "href="https://new.nsf.gov/funding/initiatives/i-corps"><img src={nsf} alt="nsf" className="nsf-image" /></a>
+						<a className="image-link "href="https://new.nsf.gov/funding/initiatives/i-corps"><img src={nsf} alt="nsf" className="nsf-image" /></a>
 						<a className="image-link "href="https://healthtech.berkeley.edu/"><img src={health} alt="health-tech" className="health-image" /></a>
 					</div>
 				</div>
