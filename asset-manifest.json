@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74802f30.css",
+    "main.js": "/static/js/main.f5bbfc74.js",
+    "static/js/787.28b0738e.chunk.js": "/static/js/787.28b0738e.chunk.js",
+    "static/media/background-man.jpg": "/static/media/background-man.706511fe2a64bee73411.jpg",
+    "static/media/demo.gif": "/static/media/demo.54eb3621674830b0fa64.gif",
+    "static/media/about-picture.jpg": "/static/media/about-picture.680d69f30b64e41194b9.jpg",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-VariableFont_wdth,wght.071a1becc7f00e33cc5b.ttf",
+    "static/media/tools.png": "/static/media/tools.4d90137e80fa0e4e7e3f.png",
+    "static/media/guidance.png": "/static/media/guidance.420b54030954db60798d.png",
+    "static/media/time-saving.png": "/static/media/time-saving.b888df8bed754d6a0eac.png",
+    "static/media/MuseoModerno-VariableFont_wght.ttf": "/static/media/MuseoModerno-VariableFont_wght.7a8c5fe2d992ace8b7ec.ttf",
+    "static/media/green-background-2.png": "/static/media/green-background-2.565813b2af7116e11957.png",
+    "static/media/diaita-logo.png": "/static/media/diaita-logo.09a4db601a3c873b3b99.png",
+    "static/media/nsf.png": "/static/media/nsf.54d666a2b746a8675faa.png",
+    "static/media/green-background.png": "/static/media/green-background.b66dafb7cb34038442b4.png",
+    "static/media/time.png": "/static/media/time.4717597fbe10406fe221.png",
+    "static/media/ai.png": "/static/media/ai.0832f8eaa6fdc55cf0ea.png",
+    "static/media/computer.png": "/static/media/computer.e0a0db41ea76206f2d19.png",
+    "static/media/skydeck2.png": "/static/media/skydeck2.3c45c587235538ac99e3.png",
+    "static/media/health-tech.png": "/static/media/health-tech.197383183877cf43ad9b.png",
+    "static/media/quote.png": "/static/media/quote.7dbe1179770e3a733e67.png",
+    "static/media/green-background-3.png": "/static/media/green-background-3.ccdf40c8c8ea99e373dc.png",
+    "index.html": "/index.html",
+    "main.74802f30.css.map": "/static/css/main.74802f30.css.map",
+    "main.f5bbfc74.js.map": "/static/js/main.f5bbfc74.js.map",
+    "787.28b0738e.chunk.js.map": "/static/js/787.28b0738e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74802f30.css",
+    "static/js/main.f5bbfc74.js"
+  ]
+}
