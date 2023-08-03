@@ -1,0 +1,64 @@
+.Download {
+    background: #FBFBFB;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.download-header {
+    width: 100vw;
+    height: 52vh;
+
+    background-image: url("/Users/jiaju/Desktop/diaita/diaita-website/src/assets/green-background-4.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.download-section {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.left-download {
+    width: 27%;
+
+    padding-left: 5%;
+}
+
+.download-header-text {
+    width: 100%;
+
+    color: #102F27;
+    font-family: OpenSans;
+    font-size: 1.7em;
+    font-weight: 700;
+
+    padding-top: 6%;
+}
+
+.download-text {
+    width: 100%;
+
+    color: #226252;
+    font-family: OpenSans;
+    font-size: 1.2em;
+    font-weight: 400;
+
+    padding-bottom: 7%;
+}
+
+.sample-photo {
+    width: 30%;
+
+    padding-right: 5%;
+}
