@@ -9,6 +9,7 @@ function NavBar() {
 			<ul className="nav-links">
 				<li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>home</NavLink></li>
 				<li><NavLink to="/about"className={({ isActive }) => isActive ? "active" : ""}>about</NavLink></li>
+				<li><a href="https://arie.cc/">blog</a></li>
 				<li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>contact</NavLink></li>
 			</ul>
 		</nav>

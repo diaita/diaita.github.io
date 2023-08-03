@@ -3,7 +3,7 @@ import Footer from "../Footer/Footer.js";
 import { useRef, useEffect } from 'react';
 // import { Chart, ArcElement, Tooltip, Legend, Title } from 'chart.js';
 // import { Doughnut } from 'react-chartjs-2';
-import about from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/about-picture.jpg";
+import about from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/about-picture.png";
 import time from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/time.png";
 import computer from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/computer.png";
 import ai from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/ai.png";
@@ -66,25 +66,19 @@ function About(props) {
 			<div className="mission-section">
 				<h2 className="mission-header">Our Mission</h2>
 				<h3 className="mission-subheader">Food is connected to everything.</h3>
-				<p className="mission-text">We care about sustainable health and food policy, and provide a way that cultures positive environmental impact.</p>
+				<p className="mission-text">Empowering pre-diabetic individuals to proactively prevent Type 2 Diabetes.</p>
 			</div>
 
 			<div className="why-section">
 				<div className="top-why">
 					<div className="left-why">
 						<h2 className="why-header">Why we're here</h2>
-						<p className="why-text">Our mission is to help people who are at risk of illness make
-							lifestyle changes. More specifically, we aim to provide a tailored, sustainable way of helping
-							those with Diabetes Type 2 become healthier. Many have heard the phrase “food is your best medicine,” yet
-							only a small percentage of people consider their diets seriously. One of the main reasons why many fail
-							to adhere to their diet plans is that current diet change strategies are often not intuitive, forcing people
-							to change in ways that do not align with their mental model or lifestyles and habits. Diaita aims to solve
-							this problem by providing a mobile app that combines convenience, user-friendly tools, and a reward system
-							built with machine learning techniques to motivate individuals to maintain habits that work best with their life.
-							For more information about Diabetes, its causes, and treatment, please visit our blog <a className="why-link" href="https://arie.cc/">here</a>.
+						<p className="why-text">Our mission is to provide a tailored, sustainable way of helping
+							prediabetic individuals make lifestyle changes. Current diet change strategies often do not align with individuals' mental model or habits.
+							Diaita is here to keep users engaged in their journey towards change.
 						</p>
-					</div>			
-						<img src={about} alt="active" className="right-why"></img>
+					</div>
+					<img src={about} alt="active" className="right-why"></img>
 				</div>
 
 				<div className="bottom-why">
@@ -103,7 +97,7 @@ function About(props) {
 						<div className="why-reason">
 							<img src={ai} alt="sample" className="why-image" />
 							<h2 className="why-reason-header">Built-in Reward System, Using AI and ML</h2>
-							<p className="why-text-2">Users are engaged by CBT as they complete their challenges</p>
+							<p className="why-text-2">Users are engaged by cognitive behavioral therapy (CBT) as they complete their challenges</p>
 						</div>
 					</div>
 				</div>
@@ -111,9 +105,9 @@ function About(props) {
 				<div className="history">
 					{/* <h2 className="history-header">Where we've been</h2> */}
 					<div className="history-pics">
-						<a className="image-link "href="https://skydeck.berkeley.edu/"><img src={skydeck} alt="skydeck" className="skydeck-image"/></a>
-						<a className="image-link "href="https://new.nsf.gov/funding/initiatives/i-corps"><img src={nsf} alt="nsf" className="nsf-image" /></a>
-						<a className="image-link "href="https://healthtech.berkeley.edu/"><img src={health} alt="health-tech" className="health-image" /></a>
+						<a className="image-link " href="https://skydeck.berkeley.edu/"><img src={skydeck} alt="skydeck" className="skydeck-image" /></a>
+						<a className="image-link " href="https://new.nsf.gov/funding/initiatives/i-corps"><img src={nsf} alt="nsf" className="nsf-image" /></a>
+						<a className="image-link " href="https://healthtech.berkeley.edu/"><img src={health} alt="health-tech" className="health-image" /></a>
 					</div>
 				</div>
 			</div>
