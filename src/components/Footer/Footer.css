@@ -9,11 +9,14 @@
 }
 
 .footer-logo {
-    width: 13%;
-    height: 31%;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 40%;
+    width: 21%;
+    height: auto;
+    padding-top: 7%;
+    padding-left: 12%;
+}
+
+.logo-link {
+    width: 100%;
 }
 
 .footer-box {
@@ -26,6 +29,8 @@
 
     color: #226252;
     font-family: OpenSans;
+
+    padding-right: 6%;
 }
 
 .footer-text {

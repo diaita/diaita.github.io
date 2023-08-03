@@ -1,5 +1,6 @@
 import "./About.css";
 import Footer from "../Footer/Footer.js";
+import { useRef, useEffect } from 'react';
 // import { Chart, ArcElement, Tooltip, Legend, Title } from 'chart.js';
 // import { Doughnut } from 'react-chartjs-2';
 import about from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/about-picture.jpg";
@@ -11,7 +12,16 @@ import nsf from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/nsf.png";
 import health from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/health-tech.png";
 
 
-function About() {
+function About(props) {
+
+	const initialRef = useRef(null);
+
+	useEffect(() => {
+		if (props.reference === "learn-more") {
+			initialRef.current?.scrollIntoView({ behavior: 'smooth' });
+		}
+	}, [initialRef]);
+
 	// Chart.register(ArcElement, Tooltip, Legend, Title);
 	// Chart.defaults.plugins.tooltip.backgroundColor = 'rgb(0, 0, 156)';
 	// Chart.defaults.plugins.legend.position = 'bottom';
@@ -52,7 +62,7 @@ function About() {
 	// };
 
 	return (
-		<div className="About">
+		<div className="About" ref={initialRef}>
 			<div className="mission-section">
 				<h2 className="mission-header">Our Mission</h2>
 				<h3 className="mission-subheader">Food is connected to everything.</h3>

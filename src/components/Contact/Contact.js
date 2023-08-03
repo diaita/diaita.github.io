@@ -2,17 +2,25 @@ import "./Contact.css";
 import Footer from "../Footer/Footer.js";
 import SentForm from "./SentForm.js";
 import Default from "./Default.js"
-import { useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
-function Contact() {
+function Contact(props) {
 	const [done, setDone] = useState(false);
 
 	function doneFunction() {
 		setDone(true);
 	}
+
+	const initialRef = useRef(null);
+
+	useEffect(() => {
+		if (props.reference === "contact") {
+			initialRef.current?.scrollIntoView({ behavior: 'smooth' });
+		}
+	}, [initialRef]);
 	
 	return (
-		<div className="Contact">
+		<div className="Contact" ref={initialRef}>
 			<div className="contact-header">
 				<h2 className="contact-header-text">Contact</h2>
 			</div>

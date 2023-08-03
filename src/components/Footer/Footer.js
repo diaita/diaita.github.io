@@ -5,15 +5,12 @@ import logo from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/diaita-l
 function Footer() {
 	return (
 		<div className="Footer">
-            <img src={logo} alt="Diaita Logo" className='footer-logo'/>
+            <a href="https://diaita.github.io" className="logo-link"><img src={logo} alt="Diaita Logo" className='footer-logo'/></a>
             <div className="footer-box">
                 <h3 className="footer-header">Contact</h3>
-                <a className="footer-text" href="mailto:info@diaita.live">
+                <NavLink to="/contact" className="footer-text">
                     Email Us
-                </a>
-                <a className="footer-text" href="tel:000-000-000">
-                    (000) 000-0000 
-                </a>
+                </NavLink>
 
                 <h3 className="footer-header">Other Information</h3>
                 <NavLink to="/about"className="footer-text">About Us</NavLink>   
@@ -23,7 +20,7 @@ function Footer() {
             </div>
 
             <div className="footer-box">
-                <h3 className="footer-header">Share</h3>
+                <h3 className="footer-header">Follow Us</h3>
                 <div className="footer-text">
                     Instagram
                 </div>

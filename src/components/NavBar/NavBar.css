@@ -5,7 +5,7 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-between;
+    justify-content: center;
     align-items: center;
 
     background-color: #FBFBFB;
@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
 
     margin: 0;
-    padding-right: 1%;
+    padding-right: 5%;
 }
 
 li a {
@@ -49,8 +49,12 @@ ul li a:hover {
     color: #226252;
 }
 
+.active {
+    text-underline-offset: blue;
+}
+
 .logo {
-    width: 7%;
-    padding: 0.75%;
-    padding-left: 1.5%;
+    width: 24%;
+    padding: 2%;
+    padding-left: 24%;
 }

@@ -1,5 +1,6 @@
 import './Home.css';
 import Footer from '../Footer/Footer.js';
+import { NavLink } from "react-router-dom";
 // import CountUp from 'react-countup';
 // import VisibilitySensor from 'react-visibility-sensor';
 // import phone from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/iphone-icon.png';
@@ -11,13 +12,14 @@ import tools from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/tools.p
 
 
 function Home() {
+
 	return (
 		<div className="Home">
 			<div className="page-1">
 				<div className="main-page">
 					<h2 className="header-2">Good Mood, Good Food.</h2>
 					<h3 className="header-3">Personalized plans to help you achieve a healthy, balanced lifestyle.</h3>
-					<a className="download-btn" href="https://arie.cc/">Download Diaita</a>
+					<NavLink to="/download" className="download-btn">Download Diaita</NavLink>
 				</div>
 			</div>
 			{/* <div className="page-2">
@@ -67,7 +69,7 @@ function Home() {
 				<div className="demo-text-block">
 					<h2 className="demo-header">Diet Recommendations</h2>
 					<p className="demo-text">Individualized diet plans based on expert dietitian input, nutrition guidelines, and personal preferences.</p>
-					<a className="learn-more-btn" href="https://arie.cc/">Learn More</a>
+					<NavLink to="/about" className="learn-more-btn">Learn More</NavLink>
 				</div>
 				{/* <video controls autostart autoPlay src={demo} className="phone-icon"/> */}
 				<img src={demo} className="phone-icon" alt="demo"></img>
@@ -120,8 +122,8 @@ function Home() {
 
 			<div className="page-6">
 				<h2 className="get-started-text">Get Started with Diaita Today</h2>
-				<a className="download-btn-bottom" href="https://arie.cc/">Download Diaita</a>
-				<a className="contact-link" href="https://arie.cc/">Contact Us</a>
+				<NavLink to="/download" className="download-btn-bottom">Download Diaita</NavLink>
+				<NavLink to="/contact" className="contact-link">Contact Us</NavLink>
 			</div>
 
 			<Footer/>

@@ -5,7 +5,7 @@ import logo from '/Users/jiaju/Desktop/diaita/diaita-website/src/assets/diaita-l
 function NavBar() {
 	return (
 		<nav className="NavBar">
-			<img src={logo} alt="Diaita Logo" className='logo'/>
+			<a href="https://diaita.github.io/"><img src={logo} alt="Diaita Logo" className='logo'/></a>
 			<ul className="nav-links">
 				<li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>home</NavLink></li>
 				<li><NavLink to="/about"className={({ isActive }) => isActive ? "active" : ""}>about</NavLink></li>
