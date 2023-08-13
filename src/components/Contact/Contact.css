@@ -1,5 +1,8 @@
 .Contact {
     background: #FBFBFB;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .contact-header {

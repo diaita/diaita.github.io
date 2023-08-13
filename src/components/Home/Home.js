@@ -75,7 +75,7 @@ function Home() {
 				<img src={demo} className="phone-icon" alt="demo"></img>
 			</div>
 
-			<div className="page-4">
+			{/* <div className="page-4">
 				<div className="quote">
 					<div className="quote-div-start">
 						<img src={quote} alt="quotation mark" className="quote-start" />
@@ -97,7 +97,7 @@ function Home() {
 					</div>
 					<div className="speaker">- Person, Occupation</div>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="page-5">
 				<h2 className="why-headline">Why Diaita?</h2>

@@ -24,12 +24,12 @@ function Default(props) {
         setMessage(event.target.value);
     };
 
-	useEffect(() => emailjs.init("btXswAnOgNk8o3fgx"), []);
+	useEffect(() => emailjs.init("qNYCE4Kai3jNaCIhM"), []);
 
 	const handleSubmit = async (e) => {
         e.preventDefault();
-        const serviceId = "service_fknq2xb";
-        const templateId = "template_yzvwmdw";
+        const serviceId = "service_tl68tyi";
+        const templateId = "template_r9qbcbe";
         try {
             await emailjs.send(serviceId, templateId, {
                 from_name: firstName + " " + lastName,

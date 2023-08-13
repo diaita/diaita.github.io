@@ -3,11 +3,11 @@ import Footer from "../Footer/Footer.js";
 import sample from "/Users/jiaju/Desktop/diaita/diaita-website/src/assets/sample-picture.png";
 
 function Download() {
-	return (
-		<div className="Download">
+    return (
+        <div className="Download">
             <div className="download-header">
                 <h2 className="mission-header">Download the App</h2>
-				<h3 className="mission-subheader">Be the first to get updates about the Diaita App.</h3>
+                <h3 className="mission-subheader">Be the first to get updates about the Diaita App.</h3>
             </div>
             <div className="download-section">
                 <div className="left-download">
@@ -15,12 +15,12 @@ function Download() {
                     <p className="download-text">
                         Sign-up below to get updates about when we launch the Diaita App!
                     </p>
-                    <a className="download-btn" href="">Sign up here</a>
+                    <a className="download-btn" href="https://forms.gle/cC3DxNdhAFXNDDBUA">Sign up here</a>
                 </div>
                 <img className="sample-photo" src={sample} alt="download diaita" />
             </div>
-            <Footer/>
-		</div>
+            <Footer />
+        </div>
     );
 }
 

@@ -102,6 +102,10 @@ function About(props) {
 					</div>
 				</div>
 
+				<div className="endorsement">
+					
+				</div>
+
 				<div className="history">
 					{/* <h2 className="history-header">Where we've been</h2> */}
 					<div className="history-pics">
